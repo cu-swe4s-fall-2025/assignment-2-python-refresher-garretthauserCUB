@@ -1,6 +1,11 @@
-country='United States of America'
-county_column = 1
-fires_column = 4
+import my_utils as mu
+
+country = 'Afghanistan'
+county_column = 0
+forestFires_column = 'Forest fires'
 file_name = 'Agrofood_co2_emission.csv'
-fires = get_column()
-print(fires)
+forestFires = mu.get_column(file_name,
+                            county_column,
+                            country,
+                            forestFires_column)
+print(forestFires)
