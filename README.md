@@ -10,3 +10,5 @@ This was done because 'Area' data is stored in first column, indexed from zero i
 This is done bacause there are two columns in Agrofood_co2_emmisions.csv that track fire data; Savana fires and Forest fires. The original fires_column = 4 corresponds to the Forest fire column in the dataset.
 
 updated get_column() function in my_utils.py code to accept string values for result_column variable, and defaults to 1 if result_column is not passed a value when get_column() is called. Changed the value of variable forestFires_column from 4 to 'Forest fires'.
+
+created run.sh to run print_fires.py code
