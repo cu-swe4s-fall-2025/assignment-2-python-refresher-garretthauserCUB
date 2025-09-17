@@ -27,11 +27,15 @@ county_column = args.county_column
 country = args.country
 forestFires_column = args.forestFires_column
 
-if county_column != 0:
-    raise ValueError("county_column must be 0")
+def main():
+    if county_column != 0:
+        raise ValueError("county_column must be 0")
 
-forestFires = mu.get_column(file_name,
-                            county_column,
-                            country,
-                            forestFires_column)
-print(forestFires)
+    forestFires = mu.get_column(file_name,
+                                county_column,
+                                country,
+                                forestFires_column)
+    print(forestFires)
+
+if __name__ == "__main__":
+    main()
