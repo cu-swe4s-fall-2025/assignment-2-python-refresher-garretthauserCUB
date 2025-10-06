@@ -10,3 +10,6 @@ Added unit and functional tests.
 
 unit and functional tests should be ran from root directory.
 run.sh should be run from src directory.
+
+Added contInt.yml file to perform pesting on every push/ pull request using github actions. The file is located in .github/workflows from the root directory.
+The perofmrs unit and functional tests, as well checking theat all .py files follow PEP8 via pycodestyle. Also created env.yml file that holds all necessary packages to run the codes.
