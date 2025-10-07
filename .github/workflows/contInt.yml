@@ -1,4 +1,3 @@
-# continuous integration workflow for GitHub Actions
 name: Tests
 
 on:
