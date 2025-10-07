@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-sys.path.append('../../src')  # noqa
+sys.path.append('src')  # noqa
 
 import my_utils as mu
 import random
