@@ -6,19 +6,19 @@ on:
 
 jobs:
     run_unit_test:
-        runs-on: unbuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
             - run: python tests/unit_tests/test_my_utils.py
 
     run_func_test:
-        runs-on: unbuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
             - run: bash tests/functional_tests/test_print_fires.sh
 
     run_linter:
-        runs-on: unbuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
             - uses: mamba-org/setup-micromamba@v2
