@@ -1,11 +1,11 @@
 import sys
 import unittest
+import numpy as np
+import random
 
-sys.path.append('../../src')  # noqa
+sys.path.append('src')  # noqa
 
 import my_utils as mu
-import random
-import numpy as np
 
 
 class TestMyUtils(unittest.TestCase):
