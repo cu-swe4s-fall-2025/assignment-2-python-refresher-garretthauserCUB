@@ -9,6 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+            - run: pip install numpy
             - run: python tests/unit_tests/test_my_utils.py
 
     run_func_test:
